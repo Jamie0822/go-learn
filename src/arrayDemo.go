@@ -15,9 +15,13 @@ func main() {
 	//q = [3]int{2, 3, 4, 5} 不允许，因为长度3和长度4的数组类型是不同的
 	fmt.Println(q)
 
+	fmt.Printf("q length is %d\n", len(q))
+
 	paramCopy(q)
 
 	//a := [...]int{1, 2, 3}
+
+	delete()
 
 }
 
